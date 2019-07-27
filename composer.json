@@ -1,0 +1,31 @@
+{
+	"name"              : "steevenz/zenziva-sms",
+	"description"       : "Zenziva SMS API PHP Class",
+	"license"           : "MIT",
+	"type"              : "php-class",
+	"keywords"          : [ "zenziva-sms", "api", "sms" ],
+	"authors"           : [
+		{
+			"name"     : "Steeve Andrian",
+			"email"    : "steevenz@steevenz.com",
+			"homepage" : "http://www.steevenz.com",
+			"role"     : "PHP Programmer"
+		}
+	],
+	"support"           : {
+		"email"  : "steevenz@steevenz.com",
+		"issues" : "https://github.com/steevenz/zenziva-sms/issues"
+	},
+	"links"             : {
+		"wiki"        : "https://github.com/steevenz/zenziva-sms/wiki"
+	},
+	"require"           : {
+		"php": "^7.2.0",
+		"o2system/curl"  : "*"
+	},
+	"autoload"          : {
+		"files" : [
+			"src/ZenzivaSms.php"
+		]
+	}
+}
